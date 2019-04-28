@@ -28,7 +28,7 @@ __Step1. Install MongoDB and Memcached__
 
 __Step2. Get source code from Github and run ads-searching-system server__
 
-1. Clone the project from github: `$ git clone https://github.com/BitTigerInst/ads-searching-system.git`
+1. Clone the project from github: `$ git clone https://github.com/qzhizhou/Ads-Searching-System.git`
 2. Go to project folder, open the project in IntelliJ by the POM file
 3. Run `$ mvn clean install` to compile and install the project
 4. Right click the `Main` java file under java folder, click on `Run Main.main()` button
