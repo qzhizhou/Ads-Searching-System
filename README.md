@@ -1,4 +1,4 @@
-# ads-searching-system
+# Ads-Searching-System
 
 ### Owner
 @Zhizhou Qiu
@@ -73,9 +73,6 @@ __Step2. Get source code from Github and run ads-searching-system server__
 
 ## Resources
 - [Project Overview](https://www.bittiger.io/microproject/KrPpRGNyDEpk4nSdn)
-- [Project Video](https://www.bittiger.io/classpage/d8hva54gPra9EnSRE) by Jiayan Gan the project creator
-- [Slack](https://slack.com/) for team meeting twice a week
-- [Trello](https://trello.com/) for taking notes
 - [Heroku](https://dashboard.heroku.com/) for deploying project in the cloud
 
 ## License
