@@ -1,10 +1,10 @@
 # ads-searching-system
 
 ### Owner
-@team: [Monkey-Year-Horse-Month](https://github.com/orgs/BitTigerInst/teams/monkey-year-horse-month)
+@Zhizhou Qiu
 
 ## Description
-Inspired by Jiayan Gan, the Ads searching system is an ads platform to rank and display ads for users.
+The Ads searching system is an ads platform to rank and display ads for users.
 
 ## Motivation
 By calculating the relativity between the user's query and the ads provided by merchants, this ads searching system displays the most relevant ads that users are most interested in so that user are more likely to click the ads.
