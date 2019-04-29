@@ -1,10 +1,10 @@
-# ads-searching-system
+# Ads-Searching-System
 
 ### Owner
-@team: [Monkey-Year-Horse-Month](https://github.com/orgs/BitTigerInst/teams/monkey-year-horse-month)
+@Zhizhou Qiu
 
 ## Description
-Inspired by Jiayan Gan, the Ads searching system is an ads platform to rank and display ads for users.
+The Ads searching system is an ads platform to rank and display ads for users.
 
 ## Motivation
 By calculating the relativity between the user's query and the ads provided by merchants, this ads searching system displays the most relevant ads that users are most interested in so that user are more likely to click the ads.
@@ -28,7 +28,7 @@ __Step1. Install MongoDB and Memcached__
 
 __Step2. Get source code from Github and run ads-searching-system server__
 
-1. Clone the project from github: `$ git clone https://github.com/BitTigerInst/ads-searching-system.git`
+1. Clone the project from github: `$ git clone https://github.com/qzhizhou/Ads-Searching-System.git`
 2. Go to project folder, open the project in IntelliJ by the POM file
 3. Run `$ mvn clean install` to compile and install the project
 4. Right click the `Main` java file under java folder, click on `Run Main.main()` button
@@ -73,9 +73,6 @@ __Step2. Get source code from Github and run ads-searching-system server__
 
 ## Resources
 - [Project Overview](https://www.bittiger.io/microproject/KrPpRGNyDEpk4nSdn)
-- [Project Video](https://www.bittiger.io/classpage/d8hva54gPra9EnSRE) by Jiayan Gan the project creator
-- [Slack](https://slack.com/) for team meeting twice a week
-- [Trello](https://trello.com/) for taking notes
 - [Heroku](https://dashboard.heroku.com/) for deploying project in the cloud
 
 ## License
