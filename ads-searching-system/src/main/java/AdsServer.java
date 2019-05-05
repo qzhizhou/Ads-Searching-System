@@ -1,9 +1,7 @@
-package io.bittiger.ads;
-
-import io.bittiger.ads.activity.AdsEngine;
-import io.bittiger.ads.datastore.AdsDao;
-import io.bittiger.ads.datastore.AdsIndex;
-import io.bittiger.ads.util.Ad;
+import activity.AdsEngine;
+import datastore.AdsDao;
+import datastore.AdsIndex;
+import util.Ad;
 
 import java.io.IOException;
 import java.util.List;
@@ -28,13 +26,13 @@ public class AdsServer {
                 List<Ad> ads = adsEngine.selectAds(query);
 
                 for (Ad ad : adsEngine.getMainlineAds(ads)) {
-                    System.out.println(ad.getKeywords());
+                    System.out.println(ad.getAdId());
                 }
 
                 System.out.println("===============");
 
                 for (Ad ad : adsEngine.getSidebarAds(ads)) {
-                    System.out.println(ad.getKeywords());
+                    System.out.println(ad.getAdId());
                 }
 
             } while (!query.equals("Q"));
