@@ -83,7 +83,12 @@ public class AdsDao {
             Long adId = (Long) (theObj.get(AD_ID));
             Long campaignId = (Long) theObj.get(CAMPAIGN_ID);
             String keywordsArray = (String) theObj.get(KEYWORDS);
-            String[] keywords = keywordsArray.split(" ");
+            String[] keywords = null;
+            if (keywordsArray != null){
+                keywords = keywordsArray.split(" ");
+            } else {
+                keywords = new String[0];
+            }
             Double bid = (Double) theObj.get(BID);
             Double pClick = (Double) theObj.get(PCLICK);
 

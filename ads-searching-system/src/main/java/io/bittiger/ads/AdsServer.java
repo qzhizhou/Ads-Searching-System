@@ -28,13 +28,13 @@ public class AdsServer {
                 List<Ad> ads = adsEngine.selectAds(query);
 
                 for (Ad ad : adsEngine.getMainlineAds(ads)) {
-                    System.out.println(ad.getAdId());
+                    System.out.println(ad.getKeywords());
                 }
 
                 System.out.println("===============");
 
                 for (Ad ad : adsEngine.getSidebarAds(ads)) {
-                    System.out.println(ad.getAdId());
+                    System.out.println(ad.getKeywords());
                 }
 
             } while (!query.equals("Q"));

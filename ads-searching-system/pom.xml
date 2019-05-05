@@ -60,6 +60,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${maven-war-plugin.version}</version>
             </plugin>
+
         </plugins>
     </build>
 
